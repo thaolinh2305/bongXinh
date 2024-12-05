@@ -1,0 +1,91 @@
+@media only screen and (max-width: 600px) { 
+    #comment {
+        width: 100%;
+    }
+    #banner {
+        padding: 0 50px;
+    }
+    #comment-body {
+        width: 100%;
+    }
+    #banner .box-left, #banner .box-right {
+        width: 100%;
+    }
+    .images-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .images-container img {
+        flex: 1;
+    }
+   
+    html {
+        width: 100%;
+        height: 100vh;
+    }
+    #banner {
+        background-size: cover;
+        background-position: center;
+    }
+    /* img {
+        width: 100%;
+        height: auto;
+    } */
+    #menu .item {
+        margin: 0 14px ;
+    }
+    #wp-products {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #footer {
+        margin-top: 30px;
+        display: flex;
+        /* justify-content: space-around; */
+        flex-direction: column;
+        height: 100%;
+        padding: 0 20px ;
+    }
+    #comment {
+        margin-bottom: 100px
+    }
+    a {
+        font-size: 13px;
+    }
+    #footer .box form input {
+        width: 100%;
+    }
+    #footer .box {
+        height: max-content;
+    }
+    .container {
+        width: 100%;
+    }
+    #wp-products h2, .title, #comment h2 {
+        font-size: 25px !important;
+    }
+    .subtitle {
+        font-size: 16px;
+    }
+    #reservation-form,
+    #reservation-form input,
+    #reservation-form button,
+    #contact-form,
+    #contact-form input,
+    #contact-form textarea,
+    #contact-form button  {
+        width: 100%;
+    }
+
+    #content {
+        padding: 0 20px;
+    }
+    
+}
+
+@media only screen and (max-width: 1024px) {
+    #footer {
+        margin-top: 10px;
+    }
+}
